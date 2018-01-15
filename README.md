@@ -14,6 +14,8 @@ Future updates (V2 forward):
 
 -The implementation of dialogue will be considered but most likely won't be executed. If it is, the dialogue from V1.5 will be used
 
+
+
 Update logs:
 
 -(jan. 15th 2018) added the game's V2 version, a simple "conversion" of using dictionaries and lists to using classes instead. No dialogue or HP bar were included in this version
