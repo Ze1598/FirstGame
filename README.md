@@ -7,8 +7,11 @@ In Version 1.5 I added dialogue for the player character and each enemy.
 Version 2 is the first version to use classes instead of lists and dictionaries. This one does not use HP bars or implements dialogues
 
 Future updates (V2 forward):
+
 -Include HP bar
+
 -Include other after-stage drops, such as an improvement to the HP potions
+
 -The implementation of dialogue will be considered but most likely won't be executed. If it is, the dialogue from V1.5 will be used
 
 Update logs:
