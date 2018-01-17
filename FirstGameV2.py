@@ -24,11 +24,11 @@ class Character():
 #Creates the chance for a character to dodge an incoming attack
 #70% chance to be hit, 30% chance to dodge
 #The chance is interpreted as "rng" (random number generated)
-dodge_rng = ['hit' for i in range(7)] + ['dodge' for i in range(3)]
+dodge_rng = ['hit' if (x<7) else 'dodge' for x in range(10)]
 shuffle(dodge_rng)
 
 #Create the rng for the player to have a boost to his atk values
-atk_upg_rng = ['upgrade' for i in range(6)] + ['keep' for i in range(4)]
+atk_upg_rng = ['upgrade' if (x<6) else 'keep' for x in range(10)]
 shuffle(atk_upg_rng)
 
 #possible names for the enemies
