@@ -19,3 +19,5 @@ Future updates (V2 forward):
 Update logs:
 
 -(jan. 15th 2018) added the game's V2 version, a simple "conversion" of using dictionaries and lists to using classes instead. No dialogue or HP bar were included in this version
+
+-(jan. 17th 2018) minor update to list comprehensions syntax
