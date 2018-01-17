@@ -4,6 +4,18 @@ It is turn-based, and the objective in each stage is to defeat the enemy. Player
 
 In Version 1.5 I added dialogue for the player character and each enemy.
 
-Future updates:
-I am currently working on Version 2, which will use classes and objects now that I know how to work with them, an option for the player to quit the game at all times, and possibly "after-stage drops", which will increase player stats.
+Version 2 is the first version to use classes instead of lists and dictionaries. This one does not use HP bars or implements dialogues
 
+Future updates (V2 forward):
+
+-Include HP bar
+
+-Include other after-stage drops, such as an improvement to the HP potions
+
+-The implementation of dialogue will be considered but most likely won't be executed. If it is, the dialogue from V1.5 will be used
+
+
+
+Update logs:
+
+-(jan. 15th 2018) added the game's V2 version, a simple "conversion" of using dictionaries and lists to using classes instead. No dialogue or HP bar were included in this version
